@@ -10,6 +10,7 @@ h1{
 	border:solid black;
 	width: 200px;
 	display: inline-block;
+	padding: 50px;
 }
 #name {
 	color: royalblue;
