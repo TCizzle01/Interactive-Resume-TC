@@ -1,0 +1,17 @@
+   
+body {
+	background: yellow;
+}
+h1{
+	color:black;
+	
+}
+#select{
+	border:solid black;
+}
+#name {
+	color: royalblue;
+	font-weight: bold;
+	border-style: none
+	text-allign: center
+}
