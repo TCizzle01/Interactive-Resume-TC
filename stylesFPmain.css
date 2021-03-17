@@ -8,6 +8,8 @@ h1{
 }
 #select{
 	border:solid black;
+	width: 200px;
+	display: inline-block;
 }
 #name {
 	color: royalblue;
