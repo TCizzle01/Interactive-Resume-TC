@@ -14,17 +14,18 @@ h1{
 #name {
 	color: royalblue;
 	font-weight: bold;
-	border-style: none
-	float: center
-	padding: 3em
+	border-style: none;
+	float: center;
+	
 }
 
 
 .collapse {
         background-color: #de9996;
-        border: none;
         outline: none;
         font-size: 25px;
+		width: 200px;
+		border:solid black;
     }
    
     .active,
@@ -33,6 +34,6 @@ h1{
     }
    
     .text {
-        background-color: #c3c2ff;
+        background-color: #3431c9;
         display: none;
-        font-size: 20px;
+        font-size: 20px;}
