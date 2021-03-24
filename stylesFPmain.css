@@ -10,11 +10,29 @@ h1{
 	border:solid black;
 	width: 200px;
 	display: inline-block;
-	padding: 50px;
 }
 #name {
 	color: royalblue;
 	font-weight: bold;
 	border-style: none
-	
+	float: center
+	padding: 3em
 }
+
+
+.collapse {
+        background-color: #de9996;
+        border: none;
+        outline: none;
+        font-size: 25px;
+    }
+   
+    .active,
+    .collapse:hover {
+        background-color: #438a5e;
+    }
+   
+    .text {
+        background-color: #c3c2ff;
+        display: none;
+        font-size: 20px;
