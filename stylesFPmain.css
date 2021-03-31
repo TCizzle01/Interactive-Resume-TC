@@ -1,35 +1,37 @@
    
 body {
-	background: yellow;
+	background-image: url(images/skills1.jpg);	
+    background-size: cover;
 }
 h1{
-	color:black;
-	
+	color:rgb(47, 23, 136);
+    
 }
+
 #select{
 	border:solid black;
 	width: 200px;
 	display: inline-block;
 }
 #name {
-	color: royalblue;
+	color: rgb(23, 9, 83);
 	font-weight: bold;
 	border-style: none;
 	float: center;
 	
 }
 
-
 .collapse {
         background-color: #de9996;
         outline: none;
         font-size: 25px;
-		width: 200px;
+		width: 33%;
 		border:solid black;
+      
     }
    
-    .active,
-    .collapse:hover {
+.active,
+.collapse:hover {
         background-color: #438a5e;
     }
    
@@ -37,3 +39,38 @@ h1{
         background-color: #3431c9;
         display: none;
         font-size: 20px;}
+img {
+    object-fit:contain;
+    max-width: 100% 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 20% 20% 20%}
+
+.grid-item {
+       
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        
+      }
+li:nth-child(odd){
+background: rgb(141, 73, 73)
+
+}
+
+@media (max-width: 837px) {
+    .collapse {
+            width:100%;
+        }
+    #name{float:left;}
+    }
+@media(max-width:837px) and (orientation:landscape){
+    .collapse {
+        width:50%;
+        float:right;
+    }
+
+}
