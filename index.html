@@ -7,23 +7,27 @@
 <body>
     <h1>Interactive Resume</h1>
     <center><h2 id="name">Name Goes Here</h2></center>
-    <button type="button" class="collapse">
+    <button onclick="toggle()" id=contentButton type="button" class="collapse">
         Education
     </button>
       
-        <div class="grid-container" >
-            <div class="grid-item">School 1</div>
-            <div class="grid-item"><img src=images/school1.jpg alt="image of a school 1"></div>
-            <div class="grid-item">School 2</div>
-            <div class="grid-item"><img src=images/school2.jpg alt="image of a school 2"></div>
-            <div class="grid-item">School 3</div>
-            <div class="grid-item"><img src=images/school3.jpg alt="image of a school 3"></div>
-        </div>
     <button type="button" class="collapse">
         Work Experience
     </button>
       
-    <div class="grid-container" >
+    <button type="button" class="collapse">
+        Skills
+    </button>
+    
+    <div class="grid-container" id="education">
+        <div class="grid-item">School 1</div>
+        <div class="grid-item"><img src=images/school1.jpg alt="image of a school 1"></div>
+        <div class="grid-item">School 2</div>
+        <div class="grid-item"><img src=images/school2.jpg alt="image of a school 2"></div>
+        <div class="grid-item">School 3</div>
+        <div class="grid-item"><img src=images/school3.jpg alt="image of a school 3"></div>
+    </div>
+    <div class="grid-container" id="experience" >
         <div class="grid-item">Job 1</div>
         <div class="grid-item"><img src=images/office1.jpg alt="image of a school 1"></div>
         <div class="grid-item">Job 2</div>
@@ -31,11 +35,7 @@
         <div class="grid-item">Job 3</div>
         <div class="grid-item"><img src=images/office3.jpg alt="image of a school 3"></div>
     </div>
-    <button type="button" class="collapse">
-        Skills
-    </button>
-      
-        <div class="list">
+        <div class="list" id="skills">
             <ul>
                 <li>SKill 1</li>
                 <li>Skill 2</li>

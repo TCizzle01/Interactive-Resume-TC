@@ -47,7 +47,8 @@ img {
 .grid-container {
     display: grid;
     grid-template-columns: 30% auto;
-    grid-template-rows: 20% 20% 20%}
+    grid-template-rows: 20% 20% 20%;
+    }
 
 .grid-item {
        
@@ -71,6 +72,7 @@ background: rgb(141, 73, 73)
     .collapse {
         width:50%;
         float:right;
+        
     }
-
+    #handshake{ display:none}
 }

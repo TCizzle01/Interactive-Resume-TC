@@ -1,29 +1,27 @@
 var btn = document.getElementsByClassName("collapse");
-   
-        btn[0].addEventListener("click", function () {
+   const educationContainer= document.getElementById("education");
+    const workContainer= document.getElementById("experience");
+    const skillsContainer= document.getElementById("skills");
+
+        btn[0].addEventListener("click", function toggle() {
             this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "grid") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "grid";
-            }
+            educationContainer.style.display="grid";
+            workContainer.style.display="none";
+            skillsContainer.style.display="none";
+
         });
         btn[1].addEventListener("click", function () {
             this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "grid") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "grid";
-            }
+           workContainer.style.display="grid";
+           skillsContainer.style.display="none";
+           educationContainer.style.display="none";
         });
         btn[2].addEventListener("click", function () {
             this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "grid") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "grid";
-            }
-        });
+            skillsContainer.style.display="grid";
+            workContainer.style.display="none";
+            educationContainer.style.display="none"});
+
+            educationContainer.style.display="none";
+            workContainer.style.display="none";
+            skillsContainer.style.display="none";
