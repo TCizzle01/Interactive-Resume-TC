@@ -8,4 +8,4 @@ When the view changes to landscape and the screen is still small the tabs move o
 
 CSS feaatures: A nth child on the skills section highlights every other list item for easier reading. The job and school options are in a grid format. 
 
-Known bugs: when the viewport is in landscape mode and under 800px wide the photos dissapear and the buttons are not alligned. 
+Known bugs: when the viewport is in landscape mode and under 800px wide the photos dissapear and the buttons are not alligned. git 
